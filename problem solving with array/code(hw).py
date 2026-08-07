@@ -30,4 +30,4 @@ def max_icecream_scoops(bowls,k):
     return max_scoops
 bowls=[1,2,3,4,5,6,7,8,9]
 k=3
-print(max_icecream_scoops(bowls,k))
+print(max_icecream_scoops(bowls,k))     
