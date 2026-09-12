@@ -4,7 +4,7 @@ def binary_search(my_list, target_number):
 
     while low <= high:
         mid= (low + high) // 2
-        print(f"Low: {low}, High: {high}, Mid: {mid}, Guess: {my_list[mid]}")  # Debugging line
+        print(mid)
         guess= my_list[mid]
 
         if guess == target_number:
